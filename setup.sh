@@ -2,7 +2,7 @@
 
 check=$(i2cdetect -y 1 | grep "28")
 
-if [ "${check}" = "" ]; then
+if [ "${check}" == "" ]; then
 
 	echo 4 > /sys/class/gpio/export
 	echo out > /sys/class/gpio/gpio4/direction
@@ -16,5 +16,5 @@ fi
 
 i2cdetect -y 1
 
-bin/test 0x29
-bin/test 0x28
+#bin/test 0x29
+#bin/test 0x28
