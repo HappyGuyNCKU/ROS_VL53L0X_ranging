@@ -9,7 +9,6 @@ if [ "${check28}" == "" ]; then
 else
 	if [ "${check29}" == "" ]; then
 		echo "I2C address 29 not found"
-
 	else
 		bin/test 0x29
 		bin/test 0x28
