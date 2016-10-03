@@ -9,4 +9,4 @@ For hardware installation see INSTALL.md
 ## TODO
 
 - Make muti modules work together
-- Porting to ROS package type
+- For ROS package see: [ros_laser_ranging](https://github.com/HappyGuyNCKU/ros_laser_ranging)
